@@ -1,0 +1,23 @@
+{
+  "name": "nogi",
+  "version": "1.0.0",
+  "description": "A Notion to docusaurus on GitHub sync library",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "keywords": ["notion", "github", "docosaurus", "sync", "markdown"],
+  "author": "Dima Grossman",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^18.12.0",
+    "@notionhq/client": "^0.4.13",
+    "notion-to-md": "^2.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.5",
+    "ts-node": "^10.4.0",
+    "prettier": "^2.5.1"
+  }
+}
