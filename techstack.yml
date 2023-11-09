@@ -1,0 +1,116 @@
+repo_name: novuhq/nogi
+report_id: '0928e065d1f004fc1c351d537693fbb8'
+repo_type: Public
+timestamp: '2023-11-09T15:11:36+00:00'
+requested_by: scopsy
+provider: github
+branch: main
+detected_tools_count: 9
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-01-29 20:17:10.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source: Repo Metadata
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-01-29 20:17:10.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: Octokit
+  description: GitHub API Client Library for .NET
+  website_url: https://github.com/octokit/octokit.net
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Tools for GitHub
+  image_url: https://img.stackshare.io/service/9827/octokit-dotnet_2.png
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-01-29 20:17:10.000000000 Z
+- name: Prettier
+  description: 'Prettier is an opinionated code formatter. '
+  website_url: https://prettier.io/
+  version: 2.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-01-29 20:17:10.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-01-29 20:17:10.000000000 Z
+- name: "@octokit/rest"
+  description: GitHub REST API client for Node.js
+  package_url: https://www.npmjs.com/@octokit/rest
+  version: 18.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16999/default_43f23668e39c9b3381720c9c76540776b8a49167.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-01-29 20:17:10.000000000 Z
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 10.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: package-lock.json
+  detection_source: package.json
+  last_updated_by: Dima Grossman
+  last_updated_on: 2022-01-29 20:17:10.000000000 Z
